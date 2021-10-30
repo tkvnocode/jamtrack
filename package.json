@@ -1,0 +1,69 @@
+{
+  "private": true,
+  "name": "jam-track",
+  "homepage": "https://jam-track.draftbit.app",
+  "description": "JamTrack, powered by Draftbit",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/datetimepicker": "3.5.2",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-picker/picker": "^2.1.0",
+    "expo-app-loading": "1.1.2",
+    "expo-asset": "~8.3.2",
+    "expo-av": "~9.2.3",
+    "expo-blur": "~9.0.3",
+    "expo-constants": "~11.0.1",
+    "expo-font": "~9.2.1",
+    "expo-image-picker": "~10.2.2",
+    "expo-linear-gradient": "~9.2.0",
+    "expo-linking": "~2.3.1",
+    "expo-location": "~12.1.2",
+    "expo-permissions": "~12.1.1",
+    "expo-screen-orientation": "~3.3.0",
+    "expo-web-browser": "~9.2.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-svg": "12.1.1",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "11.6.5",
+    "@draftbit/ui": "42.4.5",
+    "@react-native-community/slider": "4.0.0-rc.3",
+    "@react-navigation/bottom-tabs": "^5.11.2",
+    "@react-navigation/drawer": "^5.7.4",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "react-native-typography": "1.4.1",
+    "react-fetch-hook": "1.8.5",
+    "react-request": ">=3.1.0",
+    "react-query": "^3.27.0",
+    "expo": "~42.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "resolutions": {
+    "@react-native-community/slider": "4.0.0-rc.3",
+    "@react-native-community/masked-view": "0.1.10",
+    "react-native-webview": "11.6.5"
+  },
+  "devDependencies": {
+    "@expo/webpack-config": "^0.12.58",
+    "@babel/core": "~7.9.0",
+    "babel-preset-expo": "8.3.0"
+  }
+}
